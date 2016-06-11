@@ -10,4 +10,24 @@
 *** Search keyword in project
     SPC s a p
 
+** Git (SPC g)
+*** git blame micro state
+    - git g b
+*** git dif head
+    - git g D
+*** git highlight
+**** git clear highlight
+     - SPC g H c
+**** git highlight by age of change
+     - SPC g H h
+**** git highlight by last udpate time
+     - SPC g H t
+*** git log
+    - SPC g L
+*** git last commit message
+    - SPC g m
+*** git status
+    - SPC g s
+*** git time machine
+    - SPC g t
 
