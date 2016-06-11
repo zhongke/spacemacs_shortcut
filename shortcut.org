@@ -1,13 +1,13 @@
-* Search (SPC s)
+** Search (SPC s)
   - Dependency  : Install the tools ag first
   - Reference   : https://github.com/ggreer/the_silver_searcher
   - Benefit     : Search the keyword then filter the result with more keyword
   - Screenshoot : [[./img/001_searh_in_file.png]]
-** Search keyword in current file
-*** SPC s a a
-** Search keyword in opened buffers
-*** SPC s a b
-** Search keyword in project
-*** SPC s a p
+*** Search keyword in current file
+    SPC s a a
+*** Search keyword in opened buffers
+    SPC s a b
+*** Search keyword in project
+    SPC s a p
 
 
