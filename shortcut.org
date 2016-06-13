@@ -1,20 +1,8 @@
-** Search (SPC s)
-  - Dependency  : Install the tools ag first
-  - Reference   : https://github.com/ggreer/the_silver_searcher
-  - Benefit     : Search the keyword then filter the result with more keyword
-  - Screenshoot : [[./img/001_searh_in_file.png]]
-*** Search keyword in current file
-    SPC s a a
-*** Search keyword in opened buffers
-    SPC s a b
-*** Search keyword in project
-    SPC s a p
-
 ** Git (SPC g)
 *** git blame micro state
-    - git g b
+    - SPC g b
 *** git dif head
-    - git g D
+    - SPC g D
 *** git highlight
 **** git clear highlight
      - SPC g H c
@@ -30,4 +18,47 @@
     - SPC g s
 *** git time machine
     - SPC g t
+
+
+** File (SPC f)
+*** fasd
+    SPC f a
+*** Find file
+    SPC f f
+
+**  Join (SPC j)
+*** ident
+    SPC j =
+*** newline with quote
+    SPC j S
+
+** Project (SPC p)
+*** List buffers in the project
+    SPC p b
+*** D: Open dired/ranger in project root
+    SPC p D
+*** Find file in the project
+    SPC p f
+
+** Resume (SPC r)
+*** Resume last search
+    SPC r s
+
+
+** Search (SPC s)
+  - Dependency  : Install the tools ag first
+  - Reference   : https://github.com/ggreer/the_silver_searcher
+  - Benefit     : Search the keyword then filter the result with more keyword
+  - Screenshoot : [[./img/001_searh_in_file.png]]
+*** Search keyword in current file
+    SPC s a a
+*** Search keyword in opened buffers
+    SPC s a b
+*** Search keyword in project
+    SPC s a p
+*** Multiple cursor
+    SPC s e
+*** Show all the function for current buffer
+    SPC s j
+
 
