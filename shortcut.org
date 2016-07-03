@@ -1,3 +1,4 @@
+* HEAD
 ** Git (SPC g)
 *** git blame micro state
     - SPC g b
@@ -19,7 +20,7 @@
 *** git time machine
     - SPC g t
 
-
+      
 ** File (SPC f)
 *** fasd
     SPC f a
@@ -44,7 +45,7 @@
 *** Resume last search
     SPC r s
 
-
+    
 ** Search (SPC s)
   - Dependency  : Install the tools ag first
   - Reference   : https://github.com/ggreer/the_silver_searcher
@@ -60,5 +61,5 @@
     SPC s e
 *** Show all the function for current buffer
     SPC s j
-
-
+*** Search current file in occur mode
+    M-s o
