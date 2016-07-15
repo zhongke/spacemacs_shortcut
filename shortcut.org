@@ -63,3 +63,16 @@
     SPC s j
 *** Search current file in occur mode
     M-s o
+
+
+** Folding
+*** Fold current code
+    zc
+*** Unfold current code
+    zo
+*** Switch Folding or Unfolding current
+    za
+*** Fold all code
+    zm
+*** Unfold all code
+    zr
