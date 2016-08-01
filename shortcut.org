@@ -2,7 +2,7 @@
 ** Git (SPC g)
 *** git blame micro state
     - SPC g b
-*** git dif head
+*** git diff head
     - SPC g D
 *** git highlight
 **** git clear highlight
@@ -22,10 +22,10 @@
 
       
 ** File (SPC f)
-*** fasd
-    SPC f a
 *** Find file
     SPC f f
+*** fasd (fasd layer)
+    SPC f a
 
 **  Join (SPC j)
 *** ident
@@ -34,12 +34,12 @@
     SPC j S
 
 ** Project (SPC p)
+*** Find file in the project
+    SPC p f
 *** List buffers in the project
     SPC p b
 *** D: Open dired/ranger in project root
     SPC p D
-*** Find file in the project
-    SPC p f
 
 ** Resume (SPC r)
 *** Resume last search
