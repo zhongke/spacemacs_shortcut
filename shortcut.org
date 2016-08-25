@@ -20,14 +20,21 @@
 *** git time machine
     - SPC g t
 
-      
+** Navigation in C/C++ mode (SPC m)
+*** Switch between header and cc files
+    SPC m g a
+*** Go to definition
+    SPC m g g
+*** Back to previous place
+    SPC m g p
+
 ** File (SPC f)
 *** fasd
     SPC f a
 *** Find file
     SPC f f
 
-**  Join (SPC j)
+** Join (SPC j)
 *** ident
     SPC j =
 *** newline with quote
@@ -45,7 +52,6 @@
 *** Resume last search
     SPC r s
 
-    
 ** Search (SPC s)
   - Dependency  : Install the tools ag first
   - Reference   : https://github.com/ggreer/the_silver_searcher
@@ -63,7 +69,6 @@
     SPC s j
 *** Search current file in occur mode
     M-s o
-
 
 ** Folding
 *** Fold current code
