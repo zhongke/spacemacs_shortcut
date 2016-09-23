@@ -81,3 +81,13 @@
     zm
 *** Unfold all code
     zr
+
+** Misc
+*** Generate template for embeded snippet in ORG
+    <s TAB
+    #+BEGIN_SRC c++
+    int main()
+    {
+        return 0;
+    }
+    #+END_SRC
