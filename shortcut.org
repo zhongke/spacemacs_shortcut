@@ -91,3 +91,9 @@
         return 0;
     }
     #+END_SRC
+*** Dired 
+    ****  Show Dired screen
+    SPC f j
+    **** go to parent directroy
+    ^
+
