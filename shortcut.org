@@ -72,6 +72,16 @@
 *** Search current file in occur mode
     - ~M-s o~
 
+
+** Toggle (SPC t)
+*** Automatic symbol highlight
+    SPC t h a
+*** Toggle indent guide
+    SPC t i
+*** Toggle showing whitespace
+    SPC t w
+    
+
 ** Folding
 *** Fold current code
     - ~z c~
