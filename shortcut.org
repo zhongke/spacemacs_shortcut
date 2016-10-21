@@ -28,7 +28,7 @@
 *** Back to previous place
     - ~SPC m g b~
 *** Find references to all symbol at point
-    ~SPC m g r~
+    - ~SPC m g r~
 
 ** File (SPC f)
 *** fasd
