@@ -1,56 +1,58 @@
 * HEAD
 ** Git (SPC g)
 *** git blame micro state
-    - SPC g b
+    - ~SPC g b~
 *** git dif head
-    - SPC g D
+    - ~SPC g D~
 *** git highlight
 **** git clear highlight
-     - SPC g H c
+     - ~SPC g H c~
 **** git highlight by age of change
-     - SPC g H h
+     - ~SPC g H h~
 **** git highlight by last udpate time
-     - SPC g H t
+     - ~SPC g H t~
 *** git log
-    - SPC g L
+    - ~SPC g L~
 *** git last commit message
-    - SPC g m
+    - ~SPC g m~
 *** git status
-    - SPC g s
+    - ~SPC g s~
 *** git time machine
-    - SPC g t
+    - ~SPC g t~
 
 ** Navigation in C/C++ mode (SPC m)
 *** Switch between header and cc files
-    SPC m g a
+    - ~SPC m g a~
 *** Go to definition
-    SPC m g g
+    - ~SPC m g g~
 *** Back to previous place
-    SPC m g p
+    - ~SPC m g b~
+*** Find references to all symbol at point
+    ~SPC m g r~
 
 ** File (SPC f)
 *** fasd
-    SPC f a
+    - ~SPC f a~
 *** Find file
-    SPC f f
+    - ~SPC f f~
 
 ** Join (SPC j)
 *** ident
-    SPC j =
+    - ~SPC j =~
 *** newline with quote
-    SPC j S
+    - ~SPC j S~
 
 ** Project (SPC p)
 *** List buffers in the project
-    SPC p b
+    - ~SPC p b~
 *** D: Open dired/ranger in project root
-    SPC p D
+    - ~SPC p D~
 *** Find file in the project
-    SPC p f
+    - ~SPC p f~
 
 ** Resume (SPC r)
 *** Resume last search
-    SPC r s
+    - ~SPC r s~
 
 ** Search (SPC s)
   - Dependency  : Install the tools ag first
@@ -58,42 +60,41 @@
   - Benefit     : Search the keyword then filter the result with more keyword
   - Screenshoot : [[./img/001_searh_in_file.png]]
 *** Search keyword in current file
-    SPC s a a
+    - ~SPC s a a~
 *** Search keyword in opened buffers
-    SPC s a b
+    - ~SPC s a b~
 *** Search keyword in project
-    SPC s a p
+    - ~SPC s a p~
 *** Multiple cursor
-    SPC s e
+    - ~SPC s e~
 *** Show all the function for current buffer
-    SPC s j
+    - ~SPC s j~
 *** Search current file in occur mode
-    M-s o
+    - ~M-s o~
 
 ** Folding
 *** Fold current code
-    zc
+    - ~z c~
 *** Unfold current code
-    zo
+    - ~z o~
 *** Switch Folding or Unfolding current
-    za
+    - ~z a~
 *** Fold all code
-    zm
+    - ~z m~
 *** Unfold all code
-    zr
+    - ~z r~
 
 ** Misc
 *** Generate template for embeded snippet in ORG
-    <s TAB
+    - ~<s TAB~
     #+BEGIN_SRC c++
     int main()
     {
         return 0;
     }
     #+END_SRC
-*** Dired 
-    ****  Show Dired screen
-    SPC f j
-    **** go to parent directroy
-    ^
-
+*** Dired
+**** Show Dired screen
+     - ~SPC f j~
+**** Go to parent directroy
+     - ~^~
