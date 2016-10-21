@@ -2,7 +2,7 @@
 ** Git (SPC g)
 *** git blame micro state
     - ~SPC g b~
-*** git dif head
+*** git diff head
     - ~SPC g D~
 *** git highlight
 **** git clear highlight
@@ -32,6 +32,9 @@
 
 ** File (SPC f)
 *** fasd
+  - Dependency  : Install software fasd
+  - Reference   : https://github.com/clvv/fasd
+                : Include layer 'fasd'
     - ~SPC f a~
 *** Find file
     - ~SPC f f~
@@ -43,12 +46,12 @@
     - ~SPC j S~
 
 ** Project (SPC p)
+*** Find file in the project
+    - ~SPC p f~
 *** List buffers in the project
     - ~SPC p b~
 *** D: Open dired/ranger in project root
     - ~SPC p D~
-*** Find file in the project
-    - ~SPC p f~
 
 ** Resume (SPC r)
 *** Resume last search
@@ -75,12 +78,12 @@
 
 ** Toggle (SPC t)
 *** Automatic symbol highlight
-    SPC t h a
+    - ~SPC t h a~
 *** Toggle indent guide
-    SPC t i
+    - ~SPC t i~
 *** Toggle showing whitespace
-    SPC t w
-    
+    - ~SPC t w~
+
 
 ** Folding
 *** Fold current code
