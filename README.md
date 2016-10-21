@@ -7,3 +7,8 @@ I would like to share them one by one with some pattern
 - Dependency
 - Shortcut
 - Screenshoot
+-
+
+Thanks for the contributors list below:
+- qinshulei
+- adrsta

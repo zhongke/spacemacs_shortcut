@@ -34,7 +34,7 @@
 *** fasd
   - Dependency  : Install software fasd
   - Reference   : https://github.com/clvv/fasd
-                : Include layer 'fasd'
+  - Dependency  : Include layer 'fasd'
     - ~SPC f a~
 *** Find file
     - ~SPC f f~
