@@ -10,5 +10,5 @@ I would like to share them one by one with some pattern
 -
 
 Thanks for the contributors list below:
-- qinshulei
-- adrsta
+- [qinshulei](https://github.com/qinshulei)
+- [adrsta](https://github.com/adrsta)
