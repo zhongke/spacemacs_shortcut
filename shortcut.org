@@ -98,3 +98,6 @@
      - ~SPC f j~
 **** Go to parent directroy
      - ~^~
+*** Show Menu List
+  - Dependency  : Include layer 'imenu-list'
+    - ~SPC b i~
