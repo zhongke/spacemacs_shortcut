@@ -40,7 +40,7 @@
     - ~SPC f f~
 
 ** Join (SPC j)
-*** ident
+*** indent
     - ~SPC j =~
 *** newline with quote
     - ~SPC j S~
@@ -81,7 +81,7 @@
     - ~SPC t h a~
 *** Toggle indent guide
     - ~SPC t i~
-*** Toggle showing whitespace
+*** Toggle showing white space
     - ~SPC t w~
 
 
@@ -98,7 +98,7 @@
     - ~z r~
 
 ** Misc
-*** Generate template for embeded snippet in ORG
+*** Generate template for embedded snippet in ORG
     - ~<s TAB~
     #+BEGIN_SRC c++
     int main()
@@ -109,8 +109,13 @@
 *** Dired
 **** Show Dired screen
      - ~SPC f j~
-**** Go to parent directroy
+**** Go to parent directory
      - ~^~
 *** Show Menu List
   - Dependency  : Include layer 'imenu-list'
     - ~SPC b i~
+*** Neotree
+**** Show the full name of directory
+     - ~A~
+*** Switch different windows
+     - C-x o
