@@ -38,6 +38,8 @@
     - ~SPC f a~
 *** Find file
     - ~SPC f f~
+*** Toggle Neotree
+    - ~SPC f t~
 
 ** Join (SPC j)
 *** indent
