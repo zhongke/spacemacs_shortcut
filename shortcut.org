@@ -38,8 +38,6 @@
     - ~SPC f a~
 *** Find file
     - ~SPC f f~
-*** Toggle Neotree
-    - ~SPC f t~
 
 ** Join (SPC j)
 *** indent
@@ -117,6 +115,8 @@
   - Dependency  : Include layer 'imenu-list'
     - ~SPC b i~
 *** Neotree
+**** Toggle Neotree
+     - ~SPC f t~
 **** Show the full name of directory
      - ~A~
 *** Switch different windows
