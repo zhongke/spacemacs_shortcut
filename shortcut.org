@@ -46,12 +46,14 @@
     - ~SPC j S~
 
 ** Project (SPC p)
-*** Find file in the project
-    - ~SPC p f~
 *** List buffers in the project
     - ~SPC p b~
+*** Find directory in the project
+    - ~SPC p d~
 *** D: Open dired/ranger in project root
     - ~SPC p D~
+*** Find file in the project
+    - ~SPC p f~
 
 ** Resume (SPC r)
 *** Resume last search
