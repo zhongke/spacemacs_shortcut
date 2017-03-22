@@ -122,5 +122,5 @@
 *** Switch different windows
      - ~C-x o~
 *** Convert TAB to SPACE
-     - ~M-x untabify
+     - ~M-x untabify~
 
