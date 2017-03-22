@@ -120,4 +120,7 @@
 **** Show the full name of directory
      - ~A~
 *** Switch different windows
-     - C-x o
+     - ~C-x o~
+*** Convert TAB to SPACE
+     - ~M-x untabify
+
