@@ -125,4 +125,6 @@
      - ~C-x o~
 *** Convert TAB to SPACE
      - ~M-x untabify~
+*** Fill column indicator
+     - ~SPC t f~
 
