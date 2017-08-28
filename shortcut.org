@@ -108,6 +108,22 @@
         return 0;
     }
     #+END_SRC
+*** Embeded plantuml digram in org
+  - Dependency : include layer: plantuml
+  - Download   : http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
+  - Benefit    : Very powerful and easy to use tool to draw diagram
+  - Reference  : http://plantuml.com/sequence-diagram
+  #+BEGIN_SRC plantuml :results graphics :file /<dir>/result.png
+  @startuml
+  Alice -> Bob: Authentication Request
+  Bob   --> Alice: Authentication Response
+
+  Alice -> Bob: Another authentication Request
+  Alice <-- Bob: another authentication Response
+  @enduml
+  #+END_SRC
+  #+RESULTS:
+
 *** Dired
 **** Show Dired screen
      - ~SPC f j~
