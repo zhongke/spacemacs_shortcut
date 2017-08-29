@@ -30,6 +30,13 @@
 *** Find references to all symbol at point
     - ~SPC m g r~
 
+** Navigation in java mode with Meghanada
+  - ~SPC m D c~
+  - Dependency : Run the command in maven or gradle project
+  - Notice     : JDK and maven env is required
+                 need to connect to sever mannually
+
+   
 ** File (SPC f)
 *** fasd
   - Dependency  : Install software fasd
@@ -80,11 +87,11 @@
 
 ** Toggle (SPC t)
 *** Automatic symbol highlight
-    - ~SPC t h a~
+   - ~SPC t h a~
 *** Toggle indent guide
     - ~SPC t i~
 *** Toggle showing white space
-    - ~SPC t w~
+  - ~SPC t w~
 
 
 ** Folding
@@ -109,6 +116,7 @@
     }
     #+END_SRC
 *** Embeded plantuml digram in org
+  - ~SPC m ,~
   - Dependency : include layer: plantuml
   - Download   : http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
   - Benefit    : Very powerful and easy to use tool to draw diagram
