@@ -6,6 +6,7 @@
   - [[#navigation-in-java-mode-with-meghanada][Navigation in java mode with Meghanada]]
   - [[#file-spc-f][File (SPC f)]]
   - [[#join-spc-j][Join (SPC j)]]
+  - [[#org-][Org (,)]]
   - [[#project-spc-p][Project (SPC p)]]
   - [[#resume-spc-r][Resume (SPC r)]]
   - [[#search-spc-s][Search (SPC s)]]
@@ -36,6 +37,7 @@
 *** git time machine
     - ~SPC g t~
 
+
 ** Navigation in C/C++ mode (SPC m)
 *** Switch between header and cc files
     - ~SPC m g a~
@@ -46,11 +48,11 @@
 *** Find references to all symbol at point
     - ~SPC m g r~
 
+
 ** Navigation in java mode with Meghanada
-  - ~SPC m D c~
-  - Dependency : Run the command in maven or gradle project
-  - Notice     : JDK and maven env is required
-                 need to connect to sever mannually
+   - ~SPC m D c~
+   - Dependency : Run the command in maven or gradle project
+   - Notice     : JDK and maven env is required and connect to sever mannually
 
 
 ** File (SPC f)
@@ -61,12 +63,31 @@
     - ~SPC f a~
 *** Find file
     - ~SPC f f~
+*** Save a buffer
+    - ~SPC f s~
+*** Save all opened buffer
+    - ~SPC f S~
+
 
 ** Join (SPC j)
 *** indent
     - ~SPC j =~
 *** newline with quote
     - ~SPC j S~
+
+
+** Org (,)
+*** org-deadline
+    - ~, d d~
+*** org-schedule
+    - ~, d s~
+*** org-timestamp
+    - ~, d t~
+*** org-table
+    - ~, t i n~
+*** org-todo
+    - ~, T T~
+
 
 ** Project (SPC p)
 *** List buffers in the project
@@ -78,9 +99,11 @@
 *** Find file in the project
     - ~SPC p f~
 
+
 ** Resume (SPC r)
 *** Resume last search
     - ~SPC r s~
+
 
 ** Search (SPC s)
   - Dependency  : Install the tools ag first
@@ -93,12 +116,19 @@
     - ~SPC s a b~
 *** Search keyword in project
     - ~SPC s a p~
+    - Note: search specified filetype like -G\*.cc
 *** Multiple cursor
     - ~SPC s e~
 *** Show all the function for current buffer
     - ~SPC s j~
 *** Search current file in occur mode
     - ~M-s o~
+*** Navigate in search result
+    - ~C-v~
+    - ~M-v~
+    - ~C->~
+    - ~C-<~
+
 
 
 ** Toggle (SPC t)
@@ -121,6 +151,7 @@
     - ~z m~
 *** Unfold all code
     - ~z r~
+
 
 ** Misc
 *** Generate template for embedded snippet in ORG
