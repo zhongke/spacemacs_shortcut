@@ -1,4 +1,20 @@
-* HEAD
+
+* Table of Contents                                          :TOC_2:noexport:
+- [[#shortcut][Shortcut]]
+  - [[#git-spc-g][Git (SPC g)]]
+  - [[#navigation-in-cc-mode-spc-m][Navigation in C/C++ mode (SPC m)]]
+  - [[#navigation-in-java-mode-with-meghanada][Navigation in java mode with Meghanada]]
+  - [[#file-spc-f][File (SPC f)]]
+  - [[#join-spc-j][Join (SPC j)]]
+  - [[#project-spc-p][Project (SPC p)]]
+  - [[#resume-spc-r][Resume (SPC r)]]
+  - [[#search-spc-s][Search (SPC s)]]
+  - [[#toggle-spc-t][Toggle (SPC t)]]
+  - [[#folding][Folding]]
+  - [[#misc][Misc]]
+
+* Shortcut
+
 ** Git (SPC g)
 *** git blame micro state
     - ~SPC g b~
@@ -36,7 +52,7 @@
   - Notice     : JDK and maven env is required
                  need to connect to sever mannually
 
-   
+
 ** File (SPC f)
 *** fasd
   - Dependency  : Install software fasd
@@ -151,4 +167,3 @@
      - ~M-x untabify~
 *** Fill column indicator
      - ~SPC t f~
-
