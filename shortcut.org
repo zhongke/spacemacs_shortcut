@@ -87,6 +87,9 @@
     - ~, t i n~
 *** org-todo
     - ~, T T~
+*** org-toc
+    - ~, i t~
+    - Note: TOC_2
 
 
 ** Project (SPC p)
