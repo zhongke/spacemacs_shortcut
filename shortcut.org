@@ -83,13 +83,15 @@
     - ~, d s~
 *** org-timestamp
     - ~, d t~
+*** org-toc
+    - ~, i t~
+    - Note: TOC_2
 *** org-table
     - ~, t i n~
 *** org-todo
     - ~, T T~
-*** org-toc
-    - ~, i t~
-    - Note: TOC_2
+*** org-toggle-inline-image
+    - ~, T i~
 
 
 ** Project (SPC p)
