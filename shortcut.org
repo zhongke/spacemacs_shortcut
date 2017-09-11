@@ -20,37 +20,37 @@
 *** git blame micro state
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ b @@html:</kbd>@@
 *** git diff head
-    - ~SPC g D~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ D @@html:</kbd>@@
 *** git highlight
 **** git clear highlight
-     - ~SPC g H c~
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ H @@html:</kbd>@@ @@html:<kbd>@@ c @@html:</kbd>@@
 **** git highlight by age of change
-     - ~SPC g H h~
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ H @@html:</kbd>@@ @@html:<kbd>@@ h @@html:</kbd>@@
 **** git highlight by last udpate time
-     - ~SPC g H t~
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ H @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@
 *** git log
-    - ~SPC g L~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ L @@html:</kbd>@@
 *** git last commit message
-    - ~SPC g m~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ m @@html:</kbd>@@
 *** git status
-    - ~SPC g s~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@
 *** git time machine
-    - ~SPC g t~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@
 
 
 ** Navigation in C/C++ mode (SPC m)
 *** Switch between header and cc files
-    - ~SPC m g a~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@
 *** Go to definition
-    - ~SPC m g g~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@
 *** Back to previous place
-    - ~SPC m g b~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ b @@html:</kbd>@@
 *** Find references to all symbol at point
-    - ~SPC m g r~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ g @@html:</kbd>@@ @@html:<kbd>@@ r @@html:</kbd>@@
 
 
 ** Navigation in java mode with Meghanada
-   - ~SPC m D c~
+   - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ m @@html:</kbd>@@ @@html:<kbd>@@ D @@html:</kbd>@@ @@html:<kbd>@@ c @@html:</kbd>@@
    - Dependency : Run the command in maven or gradle project
    - Notice     : JDK and maven env is required and connect to sever mannually
 
@@ -60,54 +60,54 @@
   - Dependency  : Install software fasd
   - Reference   : https://github.com/clvv/fasd
   - Dependency  : Include layer 'fasd'
-    - ~SPC f a~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@
 *** Find file
-    - ~SPC f f~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@
 *** Save a buffer
-    - ~SPC f s~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@
 *** Save all opened buffer
-    - ~SPC f S~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@ @@html:<kbd>@@ S @@html:</kbd>@@
 
 
 ** Join (SPC j)
 *** indent
-    - ~SPC j =~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@ @@html:<kbd>@@ = @@html:</kbd>@@
 *** newline with quote
-    - ~SPC j S~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@ @@html:<kbd>@@ S @@html:</kbd>@@
 
 
 ** Org (,)
 *** org-deadline
-    - @@html:<kbd>@@ , d d @@html:</kbd>@@
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@
 *** org-schedule
-    - ~, d s~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@
 *** org-timestamp
-    - ~, d t~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@
 *** org-toc
-    - ~, i t~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ i @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@
     - Note: TOC_2
 *** org-table
-    - ~, t i n~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ i @@html:</kbd>@@ @@html:<kbd>@@ n @@html:</kbd>@@
 *** org-todo
-    - ~, T T~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ T @@html:</kbd>@@ @@html:<kbd>@@ T @@html:</kbd>@@
 *** org-toggle-inline-image
-    - ~, T i~
+    - @@html:<kbd>@@ , @@html:</kbd>@@ @@html:<kbd>@@ T @@html:</kbd>@@ @@html:<kbd>@@ i @@html:</kbd>@@
 
 
 ** Project (SPC p)
 *** List buffers in the project
-    - ~SPC p b~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ p @@html:</kbd>@@ @@html:<kbd>@@ b @@html:</kbd>@@
 *** Find directory in the project
-    - ~SPC p d~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ p @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@
 *** D: Open dired/ranger in project root
-    - ~SPC p D~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ p @@html:</kbd>@@ @@html:<kbd>@@ D @@html:</kbd>@@
 *** Find file in the project
-    - ~SPC p f~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ p @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@
 
 
 ** Resume (SPC r)
 *** Resume last search
-    - ~SPC r s~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ r @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@
 
 
 ** Search (SPC s)
@@ -116,51 +116,51 @@
   - Benefit     : Search the keyword then filter the result with more keyword
   - Screenshoot : [[./img/001_searh_in_file.png]]
 *** Search keyword in current file
-    - ~SPC s a a~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@
 *** Search keyword in opened buffers
-    - ~SPC s a b~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@ @@html:<kbd>@@ b @@html:</kbd>@@
 *** Search keyword in project
-    - ~SPC s a p~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@ @@html:<kbd>@@ p @@html:</kbd>@@
     - Note: search specified filetype like -G\*.cc
 *** Multiple cursor
-    - ~SPC s e~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@ @@html:<kbd>@@ e @@html:</kbd>@@
 *** Show all the function for current buffer
-    - ~SPC s j~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@
 *** Search current file in occur mode
-    - ~M-s o~
+    - @@html:<kbd>@@ M-s @@html:</kbd>@@ @@html:<kbd>@@ o @@html:</kbd>@@
 *** Navigate in search result
-    - ~C-v~
-    - ~M-v~
-    - ~C->~
-    - ~C-<~
+    - @@html:<kbd>@@ C-v @@html:</kbd>@@
+    - @@html:<kbd>@@ M-v @@html:</kbd>@@
+    - @@html:<kbd>@@ C-> @@html:</kbd>@@
+    - @@html:<kbd>@@ C-< @@html:</kbd>@@
 
 
 
 ** Toggle (SPC t)
 *** Automatic symbol highlight
-   - ~SPC t h a~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ h @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@
 *** Toggle indent guide
-    - ~SPC t i~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ i @@html:</kbd>@@
 *** Toggle showing white space
-  - ~SPC t w~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ w @@html:</kbd>@@
 
 
 ** Folding
 *** Fold current code
-    - ~z c~
+    - @@html:<kbd>@@ z @@html:</kbd>@@ @@html:<kbd>@@ c @@html:</kbd>@@
 *** Unfold current code
-    - ~z o~
+    - @@html:<kbd>@@ z @@html:</kbd>@@ @@html:<kbd>@@ o @@html:</kbd>@@
 *** Switch Folding or Unfolding current
-    - ~z a~
+    - @@html:<kbd>@@ z @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@
 *** Fold all code
-    - ~z m~
+    - @@html:<kbd>@@ z @@html:</kbd>@@ @@html:<kbd>@@ m @@html:</kbd>@@
 *** Unfold all code
-    - ~z r~
+    - @@html:<kbd>@@ z @@html:</kbd>@@ @@html:<kbd>@@ R @@html:</kbd>@@
 
 
 ** Misc
 *** Generate template for embedded snippet in ORG
-    - ~<s TAB~
+    - @@html:<kbd>@@ < @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@ @@html:<kbd>@@ TAB @@html:</kbd>@@
     #+BEGIN_SRC c++
     int main()
     {
@@ -168,7 +168,8 @@
     }
     #+END_SRC
 *** Embeded plantuml digram in org
-  - ~SPC m ,~
+  - @@html:<kbd>@@ SPC m ,@@html:<kbd>@@
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ m @@html:</kbd>@@ @@html:<kbd>@@ , @@html:</kbd>@@
   - Dependency : include layer: plantuml
   - Download   : http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
   - Benefit    : Very powerful and easy to use tool to draw diagram
@@ -186,20 +187,20 @@
 
 *** Dired
 **** Show Dired screen
-     - ~SPC f j~
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@
 **** Go to parent directory
-     - ~^~
+     - @@html:<kbd>@@ ^ @@html:</kbd>@@
 *** Show Menu List
   - Dependency  : Include layer 'imenu-list'
-    - ~SPC b i~
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ b @@html:</kbd>@@ @@html:<kbd>@@ i @@html:</kbd>@@
 *** Neotree
 **** Toggle Neotree
-     - ~SPC f t~
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@
 **** Show the full name of directory
-     - ~A~
+     - @@html:<kbd>@@ A @@html:</kbd>@@
 *** Switch different windows
-     - ~C-x o~
+     - @@html:<kbd>@@ C-x @@html:</kbd>@@ @@html:<kbd>@@ o @@html:</kbd>@@
 *** Convert TAB to SPACE
-     - ~M-x untabify~
+     - @@html:<kbd>@@ M-x @@html:</kbd>@@ @@html:<kbd>@@ untabify @@html:</kbd>@@
 *** Fill column indicator
-     - ~SPC t f~
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@
