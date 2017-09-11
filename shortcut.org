@@ -168,7 +168,6 @@
     }
     #+END_SRC
 *** Embeded plantuml digram in org
-  - @@html:<kbd>@@ SPC m ,@@html:<kbd>@@
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ m @@html:</kbd>@@ @@html:<kbd>@@ , @@html:</kbd>@@
   - Dependency : include layer: plantuml
   - Download   : http://sourceforge.net/projects/plantuml/files/plantuml.jar/download
