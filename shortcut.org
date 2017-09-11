@@ -78,7 +78,7 @@
 
 ** Org (,)
 *** org-deadline
-    - ~=_,_= d d~
+    - ~<code>,<code> d d~
 *** org-schedule
     - ~, d s~
 *** org-timestamp
