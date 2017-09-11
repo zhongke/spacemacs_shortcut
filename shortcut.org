@@ -78,7 +78,7 @@
 
 ** Org (,)
 *** org-deadline
-    - ~<code>,<code> d d~
+    - @@html:<kbd>@@ , d d @@html:</kbd>@@
 *** org-schedule
     - ~, d s~
 *** org-timestamp
