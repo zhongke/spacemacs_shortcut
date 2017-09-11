@@ -18,7 +18,7 @@
 
 ** Git (SPC g)
 *** git blame micro state
-    - ~SPC g b~
+    - <kbd>SPC g b<kbd>
 *** git diff head
     - ~SPC g D~
 *** git highlight
