@@ -76,6 +76,8 @@
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@ @@html:<kbd>@@ = @@html:</kbd>@@
 *** newline with quote
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@ @@html:<kbd>@@ S @@html:</kbd>@@
+*** jump to a listing of the current directory
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@
 
 
 ** Org (,)
@@ -141,6 +143,10 @@
 ** Toggle (SPC t)
 *** Automatic symbol highlight
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ h @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@
+*** Toggle the time
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ m @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@
+*** Toggle the mode line itself
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ m @@html:</kbd>@@ @@html:<kbd>@@ T @@html:</kbd>@@
 *** Toggle indent guide
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ i @@html:</kbd>@@
 *** Toggle showing white space
