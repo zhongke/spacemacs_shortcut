@@ -6,6 +6,7 @@
   - [[#navigation-in-java-mode-with-meghanada][Navigation in java mode with Meghanada]]
   - [[#file-spc-f][File (SPC f)]]
   - [[#join-spc-j][Join (SPC j)]]
+  - [[#narrow-spc-n][Narrow (SPC n)]]
   - [[#org-][Org (,)]]
   - [[#project-spc-p][Project (SPC p)]]
   - [[#resume-spc-r][Resume (SPC r)]]
@@ -79,6 +80,13 @@
 *** jump to a listing of the current directory
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ j @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@
 
+** Narrow (SPC n)
+*** Narrow-to-defun
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ n @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@
+*** Narrow-to-region
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ n @@html:</kbd>@@ @@html:<kbd>@@ r @@html:</kbd>@@
+*** Widen
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ n @@html:</kbd>@@ @@html:<kbd>@@ w @@html:</kbd>@@
 
 ** Org (,)
 *** org-deadline
