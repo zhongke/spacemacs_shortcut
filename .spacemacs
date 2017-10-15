@@ -156,7 +156,7 @@ It should only modify the values of Spacemacs settings."
    ;; with `:variables' keyword (similar to layers). Check the editing styles
    ;; section of the documentation for details on available variables.
    ;; (default 'vim)
-   dotspacemacs-editing-style 'vim
+   dotspacemacs-editing-style 'hybrid
    ;; If non-nil output loading progress in `*Messages*' buffer. (default nil)
    dotspacemacs-verbose-loading nil
    ;; Specify the startup banner. Default value is `official', it displays
@@ -434,6 +434,7 @@ before packages are loaded."
   ;; define function
   (add-hook 'c-mode-hook 'linux-c-mode)
   (add-hook 'c++-mode-hook 'linux-c-mode)
+  (add-hook 'c++-mode-hook (lambda () (setq flycheck-clang-language-standard "c++11")))
   (defun linux-c-mode()
     (define-key c-mode-map [return] 'newline-and-indent)
     (interactive)
