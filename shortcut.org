@@ -218,8 +218,11 @@
 *** Convert TAB to SPACE
      - @@html:<kbd>@@ M-x @@html:</kbd>@@ @@html:<kbd>@@ untabify @@html:</kbd>@@
 *** Fill column indicator
-     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@
-       @@html:<kbd>@@ f @@html:</kbd>@@
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ t @@html:</kbd>@@ @@html:<kbd>@@ f @@html:</kbd>@@
+*** Dired
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@ @@html:<kbd>@@ d @@html:</kbd>@@
+*** Undo tree
+     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ a @@html:</kbd>@@ @@html:<kbd>@@ u @@html:</kbd>@@
 
 
 ** Copy and paste in Emacs mode
