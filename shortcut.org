@@ -119,7 +119,10 @@
 
 ** Resume (SPC r)
 *** Resume last search
+**** helm
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ r @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@
+**** ivy
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ r @@html:</kbd>@@ @@html:<kbd>@@ l @@html:</kbd>@@
 
 
 ** Search (SPC s)
