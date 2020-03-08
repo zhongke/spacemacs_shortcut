@@ -16,6 +16,7 @@
   - [[#misc][Misc]]
   - [[#copy-and-paste-in-emacs-mode][Copy and paste in Emacs mode]]
   - [[#delete-in-emacs][Delete in Emacs]]
+  - [[#Surround][Surround]]
 
 * Shortcut
 
