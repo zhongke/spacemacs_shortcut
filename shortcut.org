@@ -230,7 +230,7 @@
 
 ** Copy and paste in Emacs mode
 *** Start mark
-     - @@html:<kbd>@@ C-Shift-SPC @@html:</kbd>@@
+     - @@html:<kbd>@@ C-Shift-@ @@html:</kbd>@@
 *** Select area
      - @@html:<kbd>@@ C-a  @@html:</kbd>@@ @@html:<kbd>@@ C-e @@html:</kbd>@@
      - @@html:<kbd>@@ C-f  @@html:</kbd>@@ @@html:<kbd>@@ C-b @@html:</kbd>@@
@@ -238,6 +238,8 @@
      - @@html:<kbd>@@ C-n  @@html:</kbd>@@ @@html:<kbd>@@ C-p @@html:</kbd>@@
 *** Copy
      - @@html:<kbd>@@ M-w @@html:</kbd>@@
+*** Cut
+     - @@html:<kbd>@@ C-w @@html:</kbd>@@
 *** Paste
      - @@html:<kbd>@@ C-y @@html:</kbd>@@
 
@@ -251,3 +253,8 @@
      - @@html:<kbd>@@ C-w @@html:</kbd>@@
 *** Delete a line
      - @@html:<kbd>@@ C-k @@html:</kbd>@@
+     
+** Surround
+*** Suround with a character
+     - @@html:<kbd>@@ s<character> @@html:</kbd>@@
+     - mark -> select -> <character>
