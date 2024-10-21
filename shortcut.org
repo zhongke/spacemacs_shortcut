@@ -124,7 +124,8 @@
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ r @@html:</kbd>@@ @@html:<kbd>@@ s @@html:</kbd>@@
 **** ivy
     - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ r @@html:</kbd>@@ @@html:<kbd>@@ l @@html:</kbd>@@
-
+**** vertico
+    - @@html:<kbd>@@ SPC @@html:</kbd>@@ @@html:<kbd>@@ ' @@html:</kbd>@@
 
 ** Search (SPC s)
   - Dependency  : Install the tools ag first
