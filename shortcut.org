@@ -261,4 +261,4 @@
      - @@html:<kbd>@@ s<character> @@html:</kbd>@@
      - mark -> select -> <character>
 *** Suround with a new character
-     - @@html:<kbd>@@ cs<old-character><new-character> @@html:</kbd>@@
+     - @@html:<kbd>@@ cs<old-character><new-character> @@html:</kbd>@@ input ', ", }, ] or )
